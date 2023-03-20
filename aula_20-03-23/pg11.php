@@ -1,5 +1,5 @@
 <?php
-$_var=true;
+$_var=false;
 echo $_var."<br>";
 var_dump($_var);
 ?>
