@@ -5,7 +5,7 @@ Saída, mostrar as duas notas e a média calculada
 */
 $nota1=7;
 $nota2=8;
-$media=$nota1+$nota2/2;
-echo "Nota1=$nota1, Nota2=$nota2<br>";
+$media=($nota1+$nota2)/2;
+echo "Nota1=$nota1 <br>Nota2=$nota2<br>";
 echo "Media=$media";
 ?>
