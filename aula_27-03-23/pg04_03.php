@@ -1,9 +1,9 @@
 <?php
-$a = "Maria ";
-echo "$a <br>";
-$b = "Leopoldina ";
-echo "$b <br>";
-echo $a . $b;
-$b .= $a;
-echo "<br>$b"; 
+$a = "Maria ";//a = "Maria "
+echo "$a <br>";//Maria
+$b = "Leopoldina ";//b = "Leopoldina "
+echo "$b <br>";//Leopoldina
+echo $a . $b;//Maria Leopoldina
+$b .= $a;//b="Leopoldina " . "Maria "//b=Leopoldina Maria
+echo "<br>$b"; //Leopoldina Maria
 ?>
