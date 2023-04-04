@@ -1,4 +1,5 @@
 <?php
+echo count($_POST)."<br>";
 echo "Recebe<br>";
 $nome=$_POST["nome"];
 $ano_atual=$_POST["ano_atual"];
