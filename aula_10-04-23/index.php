@@ -27,3 +27,4 @@ UF                  CHAR(2)
 ?>
 <hr>
 <a href="form.html">form</a><br>
+<a href="pg1.php">pg1</a>
