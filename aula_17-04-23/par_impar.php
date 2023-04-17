@@ -8,19 +8,27 @@
 </head>
 <body>
     <h1>Par-Ímpar</h1>
+    <!-- 
+        action="#" -> enviar os dados do form para o mesmo arquivo!
+     -->
     <form method="post" action="#">
 
-    Digite um número inteiro <input type="number" name="num">
+    Digite um número inteiro <input type="number" name="num" required>
                              <input type="submit" value="Enviar!!">
 
     </form>
 </body>
 </html>
 <?php
-//echo count($_POST);
 if(count($_POST)==0){
     exit();
 }
 $num=$_POST["num"];
-echo $num;
+
+if($num%2==0){
+    echo "$num - PAR";
+}
+else{
+    echo "$num - ÍMPAR";
+}
 ?>
