@@ -1,5 +1,5 @@
 <?php
-//echo md5("root1234");
+//echo md5("seilá");
 ?>
 <hr>
 <!-- 
@@ -39,7 +39,8 @@ $login=$_POST["login"];
 $senha=$_POST["senha"];
 
 $login_bd="root";
-$senha_bd="aabb2100033f0352fe7458e412495148";
+//$senha_bd="aabb2100033f0352fe7458e412495148";//root1234
+$senha_bd="03f9769f263c11f8f00d0a5302ba3946";//seilá
 
 //echo "<br>senha = $senha, ". md5($senha).", senha_bd=$senha_bd<br>";
 
