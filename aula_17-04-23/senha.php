@@ -1,5 +1,5 @@
 <?php
-echo md5("root1234");
+//echo md5("root1234");
 ?>
 <hr>
 <!-- 
@@ -41,7 +41,9 @@ $senha=$_POST["senha"];
 $login_bd="root";
 $senha_bd="aabb2100033f0352fe7458e412495148";
 
-if($login===$login_bd && $senha===$senha_bd){
+//echo "<br>senha = $senha, ". md5($senha).", senha_bd=$senha_bd<br>";
+
+if($login===$login_bd && md5($senha)===$senha_bd){
     echo "Acesso Liberado!";
 }
 else{
