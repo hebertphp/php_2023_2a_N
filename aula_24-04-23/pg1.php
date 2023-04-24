@@ -1,5 +1,5 @@
 <?php
-$destino="New York";
+$destino="New York";//nova York//new York//NYork//NY
 switch ($destino) {
     case "São Paulo":
         echo 'Seja bem vindo a cidade que nunca para!';
