@@ -18,6 +18,7 @@ while($i<=10){
     echo   "$i ";
     $i++; 
 }
+echo "<br>";
 /*
 Saída: 7 8 9 10
 1) Qual o valor inicial? 7
@@ -26,9 +27,23 @@ Saída: 7 8 9 10
 4) Quantas vezes o looping foi executado? 4
 5) Qual o valor que tornou a condição como falsa? 11
 */
-
+$i=4;
+while($i>=0){
+    echo   "$i ";
+    $i--; 
+}
+echo "<br>";
 /*
 Saída: 4 3 2 1 0
+1) Qual o valor inicial? 4
+2) Qual a condição? $i>=0 ou $i>-1
+3) Qual é o contador? $i--
+4) Quantas vezes o looping foi executado? 5
+5) Qual o valor que tornou a condição como falsa? -1
+*/
+
+/*
+Saída: 0 2 4 6 8 10
 1) Qual o valor inicial? 
 2) Qual a condição? 
 3) Qual é o contador? 
