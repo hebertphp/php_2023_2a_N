@@ -17,4 +17,16 @@ $num[1]+=$num[0];//[1]=35
 $num[2]%=2;//[2]=1
 $num[3]/=10;//[3]=30
 echo "<pre>";print_r($num);echo "</pre>";
+echo "<hr>";
+$user[7]="Bete";
+$user[2]="Anacleto";
+$user[]="Epaminondas";
+echo $user[2]."<br>";
+echo "<pre>";print_r($user);echo "</pre>";
+echo "<hr>";
+$estudante["ra"]=9212;
+$estudante["nome"]="José";
+$estudante["nota"]=9.8;
+echo $estudante[0]."<br>";
+echo "<pre>";print_r($estudante);echo "</pre>";
 ?>
