@@ -27,6 +27,14 @@ echo "<hr>";
 $estudante["ra"]=9212;
 $estudante["nome"]="José";
 $estudante["nota"]=9.8;
-echo $estudante[0]."<br>";
+echo $estudante["nome"]."<br>";//
 echo "<pre>";print_r($estudante);echo "</pre>";
+echo "<hr>";
+$produto=array(
+    "id"   => 10,
+    "marca"=> "Camil",
+    "nome" => "Arroz",
+    "valor"=> "20.5"
+);
+echo "<pre>";print_r($produto);echo "</pre>";
 ?>
