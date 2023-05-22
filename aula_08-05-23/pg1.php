@@ -34,7 +34,7 @@ $produto=array(
     "id"   => 10,
     "marca"=> "Camil",
     "nome" => "Arroz",
-    "valor"=> "20.5"
+    "valor"=> 20.5
 );
 echo "<pre>";print_r($produto);echo "</pre>";
 ?>
