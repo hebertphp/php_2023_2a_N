@@ -6,6 +6,6 @@ foreach ($uf as $valor){
 }
 echo "<hr>";
 foreach($uf as $ind=>$valor){
-    echo "[$ind]=+.or<br>";
+    echo "[$ind]=$valor<br>";
 }
 ?>
