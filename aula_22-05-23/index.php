@@ -7,3 +7,4 @@ echo "PHP - 22/05/23";
 <a href="pg4.php">pg4</a><br>
 <a href="pg5.php">pg5</a><br>
 <a href="pg6.php">pg6</a><br>
+<a href="pg7.php">pg7</a><br>
