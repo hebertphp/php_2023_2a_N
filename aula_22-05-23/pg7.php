@@ -5,4 +5,9 @@ echo "<hr>";
 foreach($uf as $pos=>$valor){
     echo $valor." ";
 }
+echo "<hr>";
+sort($uf);
+foreach($uf as $pos=>$valor){
+    echo $valor." ";
+}
 ?>
