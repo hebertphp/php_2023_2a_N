@@ -1,5 +1,5 @@
 <?php
-$uf=array("SP","MG","RJ","ES","SC","RS","AM");
+$uf=array("SP","MG","RJ","ES","SC","RS","AM","MT","DF","TO");
 echo count($uf)."<br>";
 echo "<hr>";
 foreach($uf as $pos=>$valor){
