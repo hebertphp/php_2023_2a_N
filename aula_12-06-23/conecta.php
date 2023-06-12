@@ -3,6 +3,7 @@
     define("USER","root");
     define("PASS","");
     define("DB","test");
+
     error_reporting(0);
     mysqli_report(MYSQLI_REPORT_OFF);
     $conn = mysqli_connect(HOST, USER, PASS, DB);
@@ -13,4 +14,13 @@
         echo "Conexão efetuada com sucesso!";
     }
     //mysqli_close($conn);
+    /*
+CREATE TABLE tabela_aluno (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    idade INT,
+    email VARCHAR(100),
+    data_nascimento DATE
+);
+    */
 ?>
