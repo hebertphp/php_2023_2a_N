@@ -14,13 +14,5 @@
         echo "Conexão efetuada com sucesso!";
     }
     //mysqli_close($conn);
-    /*
-CREATE TABLE tabela_aluno (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(50),
-    idade INT,
-    email VARCHAR(100),
-    data_nascimento DATE
-);
-    */
+
 ?>
