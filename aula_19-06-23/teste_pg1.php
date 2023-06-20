@@ -57,7 +57,7 @@ $estudante=array(
 $var_array=array(
             array(100,200,300,400),
             array("teste","oi","123","sei lá"),
-            array(1,2,3,4),
+            array(1,2,3,4,5,6,7,8,9,10),
             array("TADS","TJD","CC","SI")
            );
 echo $var_array[3][1]."<br>";
@@ -65,6 +65,24 @@ echo $var_array[3][1]."<br>";
 for ($i=0;$i<4;$i++){
     for($j=0;$j<4;$j++){
         echo $var_array[$i][$j]." ";
+    }
+    echo "<br>";
+}
+echo "<hr>";
+$estudante=array(
+    "Bruna", 
+    "Francisco",
+    "Thalia", 
+    "Vinicius"
+);
+
+foreach($estudante as $i => $v){
+    echo "$i $v <br>";
+}
+echo "<hr>";
+foreach($var_array as $d1){
+    foreach($d1 as $d2){
+        echo "$d2 | ";
     }
     echo "<br>";
 }
