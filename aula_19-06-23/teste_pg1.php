@@ -29,7 +29,12 @@ $i  $j
 2   3
 */
 echo "<hr>";
-$estudante=array("Bruna", "Francisco","Thalia", "Vinicius");
+$estudante=array(
+                "Bruna", 
+                "Francisco",
+                "Thalia", 
+                "Vinicius"
+            );
 echo $estudante[2];
 echo "<pre>";print_r($estudante);echo "</pre>";
 $aluno_a = array (
@@ -42,7 +47,25 @@ echo "<pre>";print_r($aluno_a);echo "</pre>";
 //como imprimir TADS da var $aluno_a
 echo $aluno_a["curso"]." ".$aluno_a[0];
 echo "<hr>";
-$var_array=array(array(100,200),array("teste","oi"),array(1,2,3),array("TADS","TJD","CC","SI"));
-echo $var_array[3];
+$estudante=array(
+    "Bruna", 
+    "Francisco",
+    "Thalia", 
+    "Vinicius"
+);
 
+$var_array=array(
+            array(100,200,300,400),
+            array("teste","oi","123","sei lá"),
+            array(1,2,3,4),
+            array("TADS","TJD","CC","SI")
+           );
+echo $var_array[3][1]."<br>";
+
+for ($i=0;$i<4;$i++){
+    for($j=0;$j<4;$j++){
+        echo $var_array[$i][$j]." ";
+    }
+    echo "<br>";
+}
 ?>
