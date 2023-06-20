@@ -41,5 +41,8 @@ $aluno_a = array (
 echo "<pre>";print_r($aluno_a);echo "</pre>";
 //como imprimir TADS da var $aluno_a
 echo $aluno_a["curso"]." ".$aluno_a[0];
-e
+echo "<hr>";
+$var_array=array(array(100,200),array("teste","oi"),array(1,2,3),array("TADS","TJD","CC","SI"));
+echo $var_array[3];
+
 ?>
