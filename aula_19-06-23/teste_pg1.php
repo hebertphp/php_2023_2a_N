@@ -81,9 +81,14 @@ foreach($estudante as $i => $v){
 }
 echo "<hr>";
 foreach($var_array as $d1){
+    echo "| ";
     foreach($d1 as $d2){
         echo "$d2 | ";
     }
     echo "<br>";
 }
+echo "<hr>";
 ?>
+<table width="500" border="1">
+
+</table>
